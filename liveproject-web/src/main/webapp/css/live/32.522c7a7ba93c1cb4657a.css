@@ -1,0 +1,201 @@
+.announcement-wrapper {
+	height: 90px;
+	width: auto;
+	display: inline-block;
+	cursor: default;
+	position: relative;
+	white-space: nowrap
+}
+
+.announcement-wrapper .gift-prefix {
+	position: relative;
+	height: 100%;
+	width: 90px;
+	display: inline-block
+}
+
+.announcement-wrapper .gift-prefix.gift-0 {
+	background:
+		url(//s1.hdslb.com/bfs/static/blive/blfe-live-room/static/img/gift-announcement.c74b69f.png)
+		no-repeat;
+	background-position-y: 0
+}
+
+.announcement-wrapper .gift-prefix.gift-0, .announcement-wrapper .gift-prefix.gift-1
+	{
+	-webkit-animation: danmakuAnnouncementGiftPrefixAnimation .8s steps(23)
+		infinite;
+	animation: danmakuAnnouncementGiftPrefixAnimation .8s steps(23) infinite
+}
+
+.announcement-wrapper .gift-prefix.gift-1 {
+	background:
+		url(//s1.hdslb.com/bfs/static/blive/blfe-live-room/static/img/gift-lucky-money.9b0c55b.png)
+		no-repeat;
+	background-position-y: 0
+}
+
+.announcement-wrapper .gift-prefix.gift-2 {
+	background:
+		url(//s1.hdslb.com/bfs/static/blive/blfe-live-room/static/img/gift-tv.25a9c18.png)
+		no-repeat;
+	background-position-y: 0
+}
+
+.announcement-wrapper .gift-prefix.gift-2, .announcement-wrapper .gift-prefix.gift-3
+	{
+	-webkit-animation: danmakuAnnouncementGiftPrefixAnimation .8s steps(23)
+		infinite;
+	animation: danmakuAnnouncementGiftPrefixAnimation .8s steps(23) infinite
+}
+
+.announcement-wrapper .gift-prefix.gift-3 {
+	background:
+		url(//s1.hdslb.com/bfs/static/blive/blfe-live-room/static/img/gift-car.d5ba24e.png)
+		no-repeat;
+	background-position-y: 0
+}
+
+.announcement-wrapper .gift-prefix.gift-4 {
+	background:
+		url(//s1.hdslb.com/bfs/static/blive/blfe-live-room/static/img/gift-guard.1be2b41.png)
+		no-repeat;
+	background-position-y: 0;
+	-webkit-animation: danmakuAnnouncementGiftPrefixAnimation .8s steps(23)
+		infinite;
+	animation: danmakuAnnouncementGiftPrefixAnimation .8s steps(23) infinite
+}
+
+.announcement-wrapper .gift-prefix.gift-5 {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image:
+		url(//s1.hdslb.com/bfs/static/blive/blfe-live-room/static/img/guard-1.0ccd317.png)
+}
+
+.announcement-wrapper .gift-prefix.gift-6 {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image:
+		url(//s1.hdslb.com/bfs/static/blive/blfe-live-room/static/img/guard-2.90bfea2.png)
+}
+
+.announcement-wrapper .gift-prefix.gift-7 {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image:
+		url(//s1.hdslb.com/bfs/static/blive/blfe-live-room/static/img/guard-3.5fdb21e.png)
+}
+
+@
+-webkit-keyframes danmakuAnnouncementGiftPrefixAnimation { 0%{
+	background-position: 0
+}
+
+to {
+	background-position: 100%
+}
+
+}
+@
+keyframes danmakuAnnouncementGiftPrefixAnimation { 0%{
+	background-position: 0
+}
+
+to {
+	background-position: 100%
+}
+
+}
+.announcement-wrapper .gift-content {
+	position: relative;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 14px;
+	bottom: 6px;
+	height: 34px;
+	border: 2px solid #fd9ccc;
+	background: #333;
+	color: #fff;
+	font-weight: 700;
+	display: inline-block;
+	padding: 1px 8px;
+	line-height: 27px;
+	margin-left: 15px;
+	border-radius: 4px;
+	text-shadow: 1px 0 1px rgba(0, 0, 0, .8), -1px 0 1px rgba(0, 0, 0, .8),
+		0 1px 1px rgba(0, 0, 0, .8), 0 -1px 1px rgba(0, 0, 0, .8)
+}
+
+.announcement-wrapper .gift-content.content-0 {
+	border-color: #b9d7ff;
+	background-color: #63a6fe
+}
+
+.announcement-wrapper .gift-content.content-1 {
+	background: #333
+}
+
+.announcement-wrapper .gift-content.content-1 .highlight {
+	color: #fff77f
+}
+
+.announcement-wrapper .gift-content.content-2 {
+	border-color: #89be7b;
+	background-color: #669a59
+}
+
+.announcement-wrapper .gift-content.content-2 .highlight {
+	color: #fff77f
+}
+
+.announcement-wrapper .gift-content.content-3 {
+	border-color: #8d7392;
+	background-color: #5b4a5e
+}
+
+.announcement-wrapper .gift-content.content-3 .highlight {
+	color: #fff77f
+}
+
+.announcement-wrapper .gift-content.content-3 .gift-image {
+	width: 30px;
+	height: 30px;
+	background-position: 50%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin: 0 4px
+}
+
+.announcement-wrapper .gift-content.content-4, .announcement-wrapper .gift-content.content-5,
+	.announcement-wrapper .gift-content.content-6, .announcement-wrapper .gift-content.content-7
+	{
+	border-color: #b56126;
+	background-color: #ffb64a;
+	text-shadow: none
+}
+
+.announcement-wrapper .gift-content.content-4 .highlight,
+	.announcement-wrapper .gift-content.content-5 .highlight,
+	.announcement-wrapper .gift-content.content-6 .highlight,
+	.announcement-wrapper .gift-content.content-7 .highlight {
+	color: #b25ac1
+}
+
+.announcement-wrapper .gift-content .gift-finger {
+	width: 54px;
+	margin-left: 5px;
+	height: 54px;
+	line-height: 54px;
+	display: inline-block;
+	background:
+		url(//s1.hdslb.com/bfs/static/blive/blfe-live-room/static/img/gift-finger.a641e1a.png)
+		no-repeat;
+	background-position-y: 0;
+	-webkit-animation: giftPrefixAnimation .8s steps(3) infinite;
+	animation: giftPrefixAnimation .8s steps(3) infinite;
+	vertical-align: top;
+	position: relative;
+	top: -24px
+}
